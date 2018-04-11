@@ -155,23 +155,3 @@ function randomTechColor () {
 
     return techColors[generateRandom(techColors.length)][generateRandom(4)];
 }
-
-
-// function pageInteractions () {
-//
-//   //Changes the color of the link to one of the ellsworth colors
-//   // $(".link-normal").hover(function(i){
-//   //     $(this).css('color', randomEllsworthColor());
-//   // });
-//
-//   var all = document.querySelectorAll('.link-normal');
-//
-//   all.forEach.call(all, function(all) {
-//
-//
-//
-//
-//   })
-//
-// }
-// pageInteractions();
