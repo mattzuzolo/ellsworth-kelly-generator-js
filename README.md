@@ -2,7 +2,7 @@
 Recreate Ellsworth Kelly's "Spectrum Colors Arranged by Chance" on the web. This project was created using JavaScript.
 
 
-Some of the originals here:
+View some of the originals here:
 
 https://www.moma.org/collection/works/37202
 
