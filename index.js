@@ -1,5 +1,4 @@
 //Grid setup
-
 //Adjust gridHeight value to change grid size
 const gridHeight = 38;
 const gridSize = gridHeight ** 2;
