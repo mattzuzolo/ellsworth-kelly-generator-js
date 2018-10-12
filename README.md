@@ -1,4 +1,4 @@
-# ellsworth-kelly-generator-js
+# Ellsworth Kelly Generator
 Recreate Ellsworth Kelly's "Spectrum Colors Arranged by Chance" on the web. This project was created using JavaScript.
 
 [Click here to view the demo!](http://mattzuzolo.com/ellsworth-kelly-generator-js/)
