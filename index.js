@@ -43,14 +43,14 @@ function randomTechColor(){
 function randomNycColor(){
   return nycColors[generateRandom(nycColors.length)]
 }
-//This method wipes the grid so a new grid may be created without interference from existing grids
+//This function wipes the grid so a new grid may be created without interference from existing grids
 function resetGrid(className){
   let squares = document.getElementsByClassName(className);
   while (0 < squares.length){
     squares[0].parentNode.removeChild(squares[0]);
   }
 }
-//This method builds the grid. The appropriate colorPicker function is passed in based on a click event defined below.
+//This function builds the grid. The appropriate colorPicker function is passed in based on a click event defined below.
 //The size of the grid is determined by a constant above
 function addElementRandom(colorPicker){
   for (let i = 0; i < gridSize; i++){
@@ -65,8 +65,8 @@ function addElementRandom(colorPicker){
   }
 }
 
-//This method runs on DOMContentLoaded and the event listeners wait for user to select a theme with the buttons created in HTML
-//This method is immediately invoked
+//This function runs on DOMContentLoaded and the event listeners wait for user to select a theme with the buttons created in HTML
+//This function is immediately invoked
 (function (event){
   document.addEventListener("DOMContentLoaded", function(event){
     addElementRandom(randomEllsworthColor)
